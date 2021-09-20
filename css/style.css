@@ -11,13 +11,14 @@ VERSION:	1.0.0
 #videobcg { 
   /* 
   z-index: -1000; 
-  overflow: hidden;
+ 
   position: fixed;
   right: 0;
   bottom: 0;
   min-width: 100%;
   min-height: 100%; */
   position:absolute;
+  overflow: hidden;
   top: 0px;
   left: 0px;
   z-index: -1;
@@ -42,8 +43,10 @@ VERSION:	1.0.0
       /* display: none; */
       width: 120%;
       height: auto;
+      overflow: hidden;
   }
   .hero-section {
+    overflow: hidden;
     padding: 34% 50% !important;
   }
   /* body {
