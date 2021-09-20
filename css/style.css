@@ -49,10 +49,9 @@ VERSION:	1.0.0
     overflow: hidden;
     padding: 34% 50% !important;
   }
-  /* body {
-      background: url('videos/file.mp4');
-      background-size: cover;
-  } */
+   body {
+      overflow: hidden;
+  } 
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
