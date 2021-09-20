@@ -9,11 +9,47 @@ VERSION:	1.0.0
 -------------------------------------------------------------------*/
 /*  typography */
 #videobcg { 
-  position: absolute;
+  /* 
+  z-index: -1000; 
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%; */
+  position:absolute;
   top: 0px;
   left: 0px;
-  z-index: -1000;
-  overflow: hidden;
+  z-index: -1;
+/*not work if the screen ratio is below 16/9*/
+  width:100%;     
+  height: auto;
+}
+@media (min-aspect-ratio: 16/9) {
+  #videobcg {
+      width:100%;
+      height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9) {
+  #videobcg { 
+      width:auto;
+      height: 100%;
+  }
+}
+@media (max-width: 767px) {
+  #videobcg {
+      /* display: none; */
+      width: 120%;
+      height: auto;
+  }
+  .hero-section {
+    padding: 75px 60px 282px 0px !important;
+  }
+  /* body {
+      background: url('videos/file.mp4');
+      background-size: cover;
+  } */
 }
 
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
