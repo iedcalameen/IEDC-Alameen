@@ -53,9 +53,7 @@ VERSION:	1.0.0
       overflow: hidden;
   } 
 }
-body {
-  overflow: hidden;
-}
+
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700");
 @font-face {
   font-family: 'futura-bold';
