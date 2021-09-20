@@ -43,9 +43,6 @@ VERSION:	1.0.0
       width: 120%;
       height: auto;
   }
-  .hero-section {
-    padding: 75px 60px 282px 0px !important;
-  }
   /* body {
       background: url('videos/file.mp4');
       background-size: cover;
