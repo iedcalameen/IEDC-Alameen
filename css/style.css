@@ -48,9 +48,7 @@ VERSION:	1.0.0
   .hero-section {
     overflow: hidden;
     padding: 34% 50% !important;
-  }
-   body {
-      overflow: hidden;
+    overflow: hidden;
   } 
 }
 
