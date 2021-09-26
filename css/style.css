@@ -9,6 +9,14 @@ VERSION:	1.0.0
 -------------------------------------------------------------------*/
 /*  typography */
 
+.join-iedc {
+  background-color: red;
+color: white !important;
+width: 120%;
+text-align: center;
+
+}
+
 #videobcg { 
   /* 
   z-index: -1000; 
